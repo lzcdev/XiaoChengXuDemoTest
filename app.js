@@ -1,6 +1,7 @@
 const openIdUrl = require('./config').openIdUrl
 
 App({
+  state: '老哥666',
   onLaunch: function () {
     console.log('App Launch')
   },
