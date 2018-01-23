@@ -1,13 +1,28 @@
 // page/component/pages/scroll-view/scroll-view.js
+var order = ['demo1', 'demo2', 'demo3']
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    toView: 'blue'
   },
-
+  upper: function(e) {
+    console.log(e)
+  },
+  lower: function(e) {
+    console.log(e)
+  },
+  scoll: function(e) {
+    console.log(e)
+  },
+  scrollToTop: function (e) {
+    this.setAction({
+      scrollTop: 0
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面加载
    */
