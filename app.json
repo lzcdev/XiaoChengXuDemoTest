@@ -1,15 +1,16 @@
 {
   "pages": [
     "page/component/index",
-    
     "page/component/pages/view/view",
     "page/component/pages/scroll-view/scroll-view",
     "page/component/pages/swiper/swiper",
-    
     "page/API/index",
     "page/component/pages/audio/audio",
     "page/component/pages/button/button",
-    "page/component/pages/canvas/canvas"
+    "page/component/pages/canvas/canvas",
+    "page/component/pages/text/text",
+    "page/component/pages/icon/icon",
+    "page/component/pages/progress/progress"
   ],
   "window": {
     "navigationBarTextStyle": "black",
