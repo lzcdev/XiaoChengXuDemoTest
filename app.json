@@ -10,7 +10,8 @@
     "page/component/pages/canvas/canvas",
     "page/component/pages/text/text",
     "page/component/pages/icon/icon",
-    "page/component/pages/progress/progress"
+    "page/component/pages/progress/progress",
+    "page/component/pages/checkbox/checkbox"
   ],
   "window": {
     "navigationBarTextStyle": "black",
