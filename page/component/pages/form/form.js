@@ -1,17 +1,39 @@
-var types = ['default', 'primary', 'warn']
-
+// page/component/pages/form/form.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    dafaultSize: 'default',
-    primarySize: 'default',
-    warnSize: 'default',
-    disabled: false,
-    plain: false,
-    loading: false
+    pickerHidden: true,
+    chosen: ''
+  },
+  pickerConfirm: function(e) {
+    this.setData({
+      pickerHidden: true
+    }),
+    this.setData({
+      chosen: e.detail.value
+    })
+  },
+  pickerCancel: function(e) {
+    this.setData({
+      pickerHidden: true
+    })
+  },
+  pickerShow: function(e) {
+    this.setData({
+      pickerHidden: false
+    })
+  },
+  formSubmit: function(e) {
+    console.log('form发生了submit事件，携带数据为:',e.detail.value)
+  },
+  formReset: function(e) {
+    console.log('form发生了reset事件，携带数据位：',e.detail.value)
+    this.setData({
+      chosen: ''
+    })
   },
   /**
    * 生命周期函数--监听页面加载
