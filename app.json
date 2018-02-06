@@ -19,7 +19,10 @@
     "page/component/pages/radio/radio",
     "page/component/pages/slider/slider",
     "page/component/pages/switch/switch",
-    "page/component/pages/textarea/textarea"
+    "page/component/pages/textarea/textarea",
+    "page/component/pages/navigator/navigator",
+    "page/component/pages/navigator/navigate",
+    "page/component/pages/navigator/redirect"
   ],
   "window": {
     "navigationBarTextStyle": "black",
