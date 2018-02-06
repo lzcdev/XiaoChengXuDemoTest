@@ -18,7 +18,8 @@
     "page/component/pages/picker/picker",
     "page/component/pages/radio/radio",
     "page/component/pages/slider/slider",
-    "page/component/pages/switch/switch"
+    "page/component/pages/switch/switch",
+    "page/component/pages/textarea/textarea"
   ],
   "window": {
     "navigationBarTextStyle": "black",
