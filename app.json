@@ -4,7 +4,6 @@
     "page/component/pages/view/view",
     "page/component/pages/scroll-view/scroll-view",
     "page/component/pages/swiper/swiper",
-    "page/API/index",
     "page/component/pages/audio/audio",
     "page/component/pages/button/button",
     "page/component/pages/canvas/canvas",
@@ -23,7 +22,13 @@
     "page/component/pages/navigator/navigator",
     "page/component/pages/navigator/navigate",
     "page/component/pages/navigator/redirect",
-    "page/component/pages/image/image"
+    "page/component/pages/image/image",
+    "page/component/pages/video/video",
+    "page/component/pages/map/map",
+
+    "page/API/index",
+    "page/API/pages/login/login",
+    "page/API/pages/get-user-info/get-user-info"
   ],
   "window": {
     "navigationBarTextStyle": "black",

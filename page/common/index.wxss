@@ -87,7 +87,7 @@
 .kind-list-text {
    flex: 1; 
 }
-.kind-list-image {
+.kind-list-img {
   width: 60rpx;
   height: 60rpx;
 }
