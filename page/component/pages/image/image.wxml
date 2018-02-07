@@ -1,0 +1,26 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class='container'>
+  <template is="head" data="{{title: 'image'}}" />
+  
+    <view class='page-body'>
+      <view class='page-section page-section-gap'>
+        <view class='page-section-title'>Local image</view>
+        <view class='page-section-ctn'>
+          <image class='image' src='../../resources/pic/1.jpg'></image>
+        </view>
+      </view>
+
+      <view class='page-section page-section-gap'>
+        <view class='page-section-title'>Internet image</view>
+        <view class='page-section-ctn'>
+          <image class='image' src='../../resources/pic/2.jpg'></image>
+        </view>
+      </view>
+      
+    </view>
+      
+
+  <template is="foot" />
+  </view>

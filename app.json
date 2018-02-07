@@ -22,7 +22,8 @@
     "page/component/pages/textarea/textarea",
     "page/component/pages/navigator/navigator",
     "page/component/pages/navigator/navigate",
-    "page/component/pages/navigator/redirect"
+    "page/component/pages/navigator/redirect",
+    "page/component/pages/image/image"
   ],
   "window": {
     "navigationBarTextStyle": "black",
